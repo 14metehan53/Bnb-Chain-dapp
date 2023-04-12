@@ -13,8 +13,7 @@ contract Counter {
     }
 
     function sub(uint _num1, uint _num2) public {
-        require(_num1 > 0, "");
-        require(_num2 > 0, "");
+        require(_num1 >= _num2,"");
         subtract = _num1 - _num2;
     }
 
@@ -23,7 +22,7 @@ contract Counter {
     }
 
     function div(uint _num1, uint _num2) public {
-        require(_num2 > 0,"");
+        require(_num2 != 0,"");
         divided = _num1 / _num2;
     }
 
