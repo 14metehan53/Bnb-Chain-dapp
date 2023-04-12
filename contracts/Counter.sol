@@ -23,7 +23,8 @@ contract Counter {
     }
 
     function div(uint _num1, uint _num2) public {
-        divided = _num1 % _num2;
+        require(_num2 > 0);
+        divided = _num1 / _num2;
     }
 
 }
