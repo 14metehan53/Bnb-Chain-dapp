@@ -1,5 +1,7 @@
 Contract Address : 0x2395b811DF8010556c02Ab86E7d17f203f976E8F <br/>
-testnet          : https://testnet.bscscan.com/address/0x2395b811DF8010556c02Ab86E7d17f203f976E8F
+testnet          : https://testnet.bscscan.com/address/0x2395b811DF8010556c02Ab86E7d17f203f976E8F <br />
+<code>npx hardhat node</code> <br />
+<code>npx hardhat run scripts/deploy.js</code>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
